@@ -1,36 +1,48 @@
 # Project Name
-> Outline a brief description of your project.
+> Lending Club Case Study
 
 
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+``` 
+Lending loans to ‘risky’ applicants is the largest source of financial loss
+(called credit loss). The credit loss is the amount of money lost by the lender 
+when the borrower refusesto pay or runs away with the money owed.  
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+The main objective is to be able to identify these risky loan applicants, 
+then such loans can be reduced thereby cutting down the amount of credit loss. 
+Identification of such applicants using EDA is the aim of this case study.   
+
+Perform an analysis to understand the driving factors (or driver variables)
+behind loan default, i.e.the variables which are strong indicators of default.  
+The company can utilise this knowledge for its portfolio and risk assessment. 
+
+```
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Applicant with more Annual Income have paid off their loans fully.
+- Applicant with more number of funded amount has paid off their loan fully.
+- Applicant with home mortgage and high annual income have paid off their loans fully.
+- Applicant with home ownership and less income have max number of fully paid off loans .
+- Applicants with grade A, B,C are most likely to pay off the loan.
+- Applicants with grade G is most likely to default the loan.
+- Less number of installment has more number of fully paid loan status records.
+- In each installment bin, it has been observed that fully paid loan status has a greater number of records wrt charged off status.
+- Maximum number of defaulters are from the state of CA
+
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
+## Tools Used
+- Jupyter Notebook
+- Github
 
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+## Python pen source libraries Used
+- pandas
+- seaborn
+- matplotlib
+- numpy
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
@@ -42,7 +54,9 @@ Give credit here.
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Contributers:
+* [Manu Sijaria]
+* [Aryan Baruah]
 
 
 <!-- Optional -->
